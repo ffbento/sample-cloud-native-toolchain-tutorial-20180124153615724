@@ -7,7 +7,7 @@
  */
 
 if (process.env.NEW_RELIC_LICENSE_KEY) {
-  console.log('New Relic in use.');
+  console.log('New Relic in use. FFB TEST');
   require('newrelic');
 } else {
   console.log('New Relic not in use.');
